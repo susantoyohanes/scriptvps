@@ -40,7 +40,7 @@ locality=Indonesia
 organization=akbarstorevpn
 organizationalunit=akbarstorevpn
 commonname=akbarstorevpn
-email=akbarssh21@gmail.com
+email=susantoyohanes69@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${akbarvpn}/password"
