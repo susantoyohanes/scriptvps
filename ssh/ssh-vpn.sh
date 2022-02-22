@@ -39,7 +39,7 @@ state=Indonesia
 locality=Indonesia
 organization=natanvpn
 organizationalunit=natanvpn
-commonname=akbarstorevpn
+commonname=natanvpn
 email=susantoyohanes69@gmail.com
 
 # simple password minimal
