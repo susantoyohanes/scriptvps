@@ -25,7 +25,6 @@ echo -e "${NC}${LIGHT}WhatsApp : 082260009781"
 echo -e "${NC}${LIGHT}Telegram : https://t.me/susantoyohanes69"
 exit 0
 fi
-fi
 clear
 tr="$(cat ~/log-install.txt | grep -w "Trojan" | cut -d: -f2|sed 's/ //g')"
 echo -e "======================================"
