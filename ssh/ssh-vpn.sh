@@ -37,9 +37,9 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=akbarstorevpn
-organizationalunit=akbarstorevpn
-commonname=akbarstorevpn
+organization=natanvpn
+organizationalunit=natanvpn
+commonname=natanvpn
 email=susantoyohanes69@gmail.com
 
 # simple password minimal
