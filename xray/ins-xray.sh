@@ -104,7 +104,7 @@ cat > /etc/xray/config.json << END
         "kcpSettings": {},
         "httpSettings": {},
         "wsSettings": {
-          "path": "/vmess/",
+          "path": "/natanvpn",
           "headers": {
             "Host": ""
           }
@@ -133,7 +133,7 @@ cat > /etc/xray/config.json << END
         "kcpSettings": {},
         "httpSettings": {},
         "wsSettings": {
-          "path": "/vmess/",
+          "path": "/natanvpn",
           "headers": {
             "Host": ""
           }
@@ -175,7 +175,7 @@ cat > /etc/xray/config.json << END
         "kcpSettings": {},
         "httpSettings": {},
         "wsSettings": {
-          "path": "/vless/",
+          "path": "/natanssh",
           "headers": {
             "Host": ""
           }
@@ -211,7 +211,7 @@ cat > /etc/xray/config.json << END
         "kcpSettings": {},
         "httpSettings": {},
         "wsSettings": {
-          "path": "/vless/",
+          "path": "/natanssh",
           "headers": {
             "Host": ""
           }
