@@ -42,7 +42,16 @@ akbarvpnnnnnnnnnn="raw.githubusercontent.com/susantoyohanes/scriptvps/main/ohp"
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$(wget -qO- ipinfo.io/ip);
+IZIN=$( curl https://raw.githubusercontent.com/susantoyohanes/perizinan/main/ipvps.txt )
+if [ $MYIP = $IZIN ]; then
+echo -e "${NC}${GREEN}Permission Accepted...${NC}"
+else
+echo -e "${NC}${RED}Permission Denied!${NC}";
+echo -e "${NC}${LIGHT}Please Contact Admin!!"
+echo -e "${NC}${LIGHT}Instagram : https://www.instagram.com/susantoyohanes1/"
+echo -e "${NC}${LIGHT}WhatsApp : 082260009781"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/susantoyohanes69"
+exit 0
 
 rm -f setup.sh
 clear
