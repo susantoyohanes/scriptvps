@@ -42,7 +42,7 @@ akbarvpnnnnnnnnnn="raw.githubusercontent.com/susantoyohanes/scriptvps/main/ohp"
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/susantoyohanes/perizinan/main/ipvps.txt | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/susantoyohanes/perizinan/main/ipvps | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
