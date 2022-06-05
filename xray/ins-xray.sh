@@ -477,7 +477,7 @@ END
 
 # Trojan Go Uuid
 cat > /etc/trojan-go/uuid.txt << END
-$uuid
+$uuid6
 END
 
 # restart
