@@ -51,7 +51,7 @@ hariini=`date -d "0 days" +"%Y-%m-%d"`
 echo -e "### $user $exp" >> /etc/trojan-go/akun.conf
 systemctl restart trojan-go.service
 link="trojan-go://${user}@${domain}:${trgo}/?sni=${domain}&type=ws&host=${domain}&path=/trojango&encryption=none#$user"
-link2="trojan://${user}@${domain}:${trgo}
+link2="trojan://${user}@${domain}:${trgo}"
 clear
 echo -e ""
 echo -e "=======-TROJAN-GO-======="
