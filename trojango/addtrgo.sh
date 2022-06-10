@@ -51,6 +51,7 @@ hariini=`date -d "0 days" +"%Y-%m-%d"`
 echo -e "### $user $exp" >> /etc/trojan-go/akun.conf
 systemctl restart trojan-go.service
 link="trojan-go://${user}@${domain}:${trgo}/?sni=${domain}&type=ws&host=${domain}&path=/trojango&encryption=none#$user"
+link2="trojan://${user}@${domain}:${trgo}
 clear
 echo -e ""
 echo -e "=======-TROJAN-GO-======="
@@ -64,6 +65,7 @@ echo -e "Path       : /trojango"
 echo -e "Created    : $hariini"
 echo -e "Expired    : $exp"
 echo -e "========================="
-echo -e "Link TrGo  : ${link}"
+echo -e "Link Trojan go /ws  : ${link}"
 echo -e "========================="
+echo -e "Link Trojan gfw : ${link2}"
 echo -e "Script By NATANVPN"
