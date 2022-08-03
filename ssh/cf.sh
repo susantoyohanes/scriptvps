@@ -1,7 +1,7 @@
 #!/bin/bash
 # My Telegram : https://t.me/susantoyohanes69
 # ==========================================
-# Color
+# l
 RED='\033[0;31m'
 NC='\033[0m'
 GREEN='\033[0;32m'
@@ -25,15 +25,7 @@ echo -e "${NC}${LIGHT}WhatsApp : 082260009781"
 echo -e "${NC}${LIGHT}Telegram : https://t.me/susantoyohanes69"
 exit 0
 fi
-clear
-apt install jq curl -y
-DOMAIN=natanvpn.my.id
-sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.natanvpn.my.id
-CF_ID=susantoyohanes69@gmail.com
-CF_KEY=b3c7daff03fda78ac14a3c932d91eb50193d1
-set -euo pipefail
-IP=$(wget -qO- ipinfo.io/ip);
+
 echo "Updating DNS for ${SUB_DOMAIN}..."
 ZONE=$(curl -sLX GET "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}&status=active" \
      -H "X-Auth-Email: ${CF_ID}" \
