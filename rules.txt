@@ -1,0 +1,10 @@
+domain:id-1.lancartech.co.id
+domain:iptv.lancartech.co.id
+domain:client.lancartech.co.id
+domain:api.vshowapi.com
+domain:cdnjkt4.transvision.co.id
+domain:cempedak-live-cdn.mncnow.id
+domain:reddit.com
+domain:www.reddit.com
+geosite:rule-indo
+geosite:bank-id
